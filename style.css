@@ -36,7 +36,6 @@ h1{
 }
 
 .producto{
-    border: 1px solid black;
     flex-basis: 25vw;
     display: flex;
     flex-wrap: wrap;
