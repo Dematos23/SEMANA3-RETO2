@@ -1,0 +1,105 @@
+body{
+    margin: 0;
+}
+
+nav{
+    background-color: rebeccapurple;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0;
+    margin-bottom: 0;
+    padding: 0 10%;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    text-align: center;
+    flex-basis: 25%;
+    padding: 10px 15px;
+}
+
+nav a:hover{
+    background-color: rgb(50, 26, 75);
+}
+
+h1{
+    text-align: center;
+}
+
+.cuerpo{
+    display: flex;
+    padding: 0 10%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.producto{
+    border: 1px solid black;
+    flex-basis: 25vw;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+}
+
+.producto img{
+    flex-basis: 100%;
+}
+
+.cotenido{
+    text-align: center;
+    }
+
+.etiquetas{
+    display: flex;
+    justify-content: space-between;
+}
+
+.etiqueta{
+    font-weight: bold;
+    border-radius: 15px;
+    background-color: rgb(235, 235, 235);
+    padding: 5px
+    ;
+}    
+
+.producto button{
+    flex-basis: 100%;
+    background-color: rgb(38, 156, 131);
+    color: white;
+    padding: 15px;
+    border: none;
+}
+
+@media(max-width:900px){
+    
+    .producto{
+        flex-basis: 35vw;
+    }
+}
+
+@media(max-width:480px){
+    
+    .producto{
+        flex-basis: 80vw;
+    }
+
+    nav{
+        background-color: rebeccapurple;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin: 0;
+        margin-bottom: 0;
+        padding: 0 10%;
+    }
+    
+    nav a{
+        color: white;
+        text-decoration: none;
+        font-size: 18px;
+        text-align: center;
+        padding: 10px 15px;
+    }
+}
